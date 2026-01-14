@@ -1,7 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-
+ 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 5^#define SCROLL 6
 #define JP_DQUOTE       AT                // "
@@ -80,7 +80,7 @@
                 <&scroll_up_down>,
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
-
+ 
         layer_2 {
             bindings = <
 &kp JP_HANZEN   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp N5                                   &kp PLUS        &kp JP_PIPE     &kp LPAREN  &kp RPAREN  &kp JP_EQUAL
